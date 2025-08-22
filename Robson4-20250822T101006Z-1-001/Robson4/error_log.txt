@@ -1,0 +1,637 @@
+
+
+[2025-08-20 11:18:48.129117] CRITICAL ERROR
+Error: name 's' is not defined
+Traceback (most recent call last):
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 197, in render
+    self._display_menu(stdscr, height, width, title_height)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 277, in _display_menu
+    s
+NameError: name 's' is not defined
+
+==================================================
+
+
+[2025-08-20 11:18:53.304298] CRITICAL ERROR
+Error: name 's' is not defined
+Traceback (most recent call last):
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 197, in render
+    self._display_menu(stdscr, height, width, title_height)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 277, in _display_menu
+    s
+NameError: name 's' is not defined
+
+==================================================
+
+
+[2025-08-20 11:21:44.919732] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 194, in render
+    self._render_detail_view(stdscr, self.current_detail, "Detalhes")
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 113, in _render_detail_view
+    stdscr.addstr(y, x, line)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-20 11:24:08.467649] CRITICAL ERROR
+Error: 'Character' object has no attribute 'show_attributes_string'
+Traceback (most recent call last):
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 181, in render
+    self._render_attribute_options_curses(stdscr, height, width)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 311, in _render_attribute_options_curses
+    stdscr.addstr(5, 2, self.temp_character.show_attributes_string())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Character' object has no attribute 'show_attributes_string'
+
+==================================================
+
+
+[2025-08-20 11:24:19.467446] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 194, in render
+    self._render_detail_view(stdscr, self.current_detail, "Detalhes")
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 113, in _render_detail_view
+    stdscr.addstr(y, x, line)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-20 11:29:53.966525] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 194, in render
+    self._render_detail_view(stdscr, self.current_detail, "Detalhes")
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 113, in _render_detail_view
+    stdscr.addstr(y, x, line)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-20 11:38:15.268479] CRITICAL ERROR
+Error: 'Character' object has no attribute 'show_attributes_string'
+Traceback (most recent call last):
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 199, in render
+    self._render_attribute_options_curses(stdscr, height, width)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 325, in _render_attribute_options_curses
+    stdscr.addstr(5, 2, self.temp_character.show_attributes_string())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Character' object has no attribute 'show_attributes_string'
+
+==================================================
+
+
+[2025-08-20 12:00:29.741590] CRITICAL ERROR
+Error: 'float' object cannot be interpreted as an integer
+Traceback (most recent call last):
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 217, in render
+    self._render_race_details(stdscr, height, width)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 85, in _render_race_details
+    self._render_simple_prompt(stdscr, "Selecione uma Raça para ver detalhes:", height, width)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 81, in _render_simple_prompt
+    stdscr.addstr(y, x, text, curses.A_BOLD)
+TypeError: 'float' object cannot be interpreted as an integer
+
+==================================================
+
+
+[2025-08-20 12:00:42.475256] CRITICAL ERROR
+Error: 'tuple' object cannot be interpreted as an integer
+Traceback (most recent call last):
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 217, in render
+    self._render_race_details(stdscr, height, width)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 85, in _render_race_details
+    self._render_simple_prompt(stdscr, "Selecione uma Raça para ver detalhes:", height, width)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 81, in _render_simple_prompt
+    stdscr.addstr(y, x, text, curses.A_BOLD)
+TypeError: 'tuple' object cannot be interpreted as an integer
+
+==================================================
+
+
+[2025-08-20 12:01:54.236649] CRITICAL ERROR
+Error: name 'back_y' is not defined
+Traceback (most recent call last):
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 224, in render
+    self._render_detail_view(stdscr, self.current_detail, "Detalhes")
+  File "C:\Users\RobertGabrielDaSilva\Downloads\Rust Dice Curses v1.1.2\states\creation\character_creation_state.py", line 150, in _render_detail_view
+    stdscr.addstr(back_y, back_x, f"> {back_text} <", curses.A_REVERSE)
+                  ^^^^^^
+NameError: name 'back_y' is not defined. Did you mean: 'back_x'?
+
+==================================================
+
+
+[2025-08-20 16:33:21.409787] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson2\states\creation\character_creation_state.py", line 257, in render
+    self._render_difficulty_detail_view(stdscr, self.current_difficulty)
+  File "C:\Users\Usuario\Downloads\Robson2\states\creation\character_creation_state.py", line 133, in _render_difficulty_detail_view
+    stdscr.addstr(back_y, back_x, f"> {back_text} <", curses.A_REVERSE)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-20 16:57:13.150391] CRITICAL ERROR
+Error: 'Character' object has no attribute 'show_attributes_string'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson2\states\creation\character_creation_state.py", line 287, in render
+    self._render_attribute_options_curses(stdscr, height, width)
+  File "C:\Users\Usuario\Downloads\Robson2\states\creation\character_creation_state.py", line 426, in _render_attribute_options_curses
+    stdscr.addstr(5, 2, self.temp_character.show_attributes_string())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Character' object has no attribute 'show_attributes_string'
+
+==================================================
+
+
+[2025-08-20 17:20:08.297943] CRITICAL ERROR
+Error: GameplayState.render() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+TypeError: GameplayState.render() takes 1 positional argument but 2 were given
+
+==================================================
+
+
+[2025-08-20 17:40:04.041657] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson2\states\creation\character_creation_state.py", line 423, in render
+    self._render_character_overview(stdscr, height, width)
+  File "C:\Users\Usuario\Downloads\Robson2\states\creation\character_creation_state.py", line 124, in _render_character_overview
+    stdscr.addstr(attr_start_y + 3, left_col_x, f"Constituição: {self.temp_character.constitution} ({self.temp_character.constitution_modifier:+#d})")
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-20 17:50:07.815080] CRITICAL ERROR
+Error: integer modulo by zero
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson2\main.py", line 80, in run
+    current_state.handle_input()
+  File "C:\Users\Usuario\Downloads\Robson2\states\base_state.py", line 20, in handle_input
+    self.current_selection = (self.current_selection - 1) % len(self.menu_options)
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+ZeroDivisionError: integer modulo by zero
+
+==================================================
+
+
+[2025-08-20 18:04:51.799609] CRITICAL ERROR
+Error: No module named 'states.system.tutorial_state'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson2\main.py", line 80, in run
+    current_state.handle_input()
+  File "C:\Users\Usuario\Downloads\Robson2\states\base_state.py", line 26, in handle_input
+    self.execute_choice()
+  File "C:\Users\Usuario\Downloads\Robson2\states\system\main_menu_state.py", line 66, in execute_choice
+    from .tutorial_state import TutorialState
+ModuleNotFoundError: No module named 'states.system.tutorial_state'
+
+==================================================
+
+
+[2025-08-20 18:05:07.428305] CRITICAL ERROR
+Error: No module named 'tutorial_state'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson2\main.py", line 80, in run
+    current_state.handle_input()
+  File "C:\Users\Usuario\Downloads\Robson2\states\base_state.py", line 26, in handle_input
+    self.execute_choice()
+  File "C:\Users\Usuario\Downloads\Robson2\states\system\main_menu_state.py", line 66, in execute_choice
+    from tutorial_state import TutorialState
+ModuleNotFoundError: No module named 'tutorial_state'
+
+==================================================
+
+
+[2025-08-20 18:06:50.869070] CRITICAL ERROR
+Error: No module named 'tutorial_state'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson2\main.py", line 80, in run
+    current_state.handle_input()
+  File "C:\Users\Usuario\Downloads\Robson2\states\base_state.py", line 26, in handle_input
+    self.execute_choice()
+  File "C:\Users\Usuario\Downloads\Robson2\states\system\main_menu_state.py", line 66, in execute_choice
+    from tutorial_state import TutorialState
+ModuleNotFoundError: No module named 'tutorial_state'
+
+==================================================
+
+
+[2025-08-20 18:08:29.793756] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson2\states\creation\character_creation_state.py", line 422, in render
+    self._render_character_overview(stdscr, height, width)
+  File "C:\Users\Usuario\Downloads\Robson2\states\creation\character_creation_state.py", line 124, in _render_character_overview
+    stdscr.addstr(attr_start_y + 3, left_col_x, f"Constituição: {self.temp_character.constitution} ({self.temp_character.constitution_modifier:+#d})")
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-20 18:08:41.855336] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson2\states\creation\character_creation_state.py", line 422, in render
+    self._render_character_overview(stdscr, height, width)
+  File "C:\Users\Usuario\Downloads\Robson2\states\creation\character_creation_state.py", line 124, in _render_character_overview
+    stdscr.addstr(attr_start_y + 3, left_col_x, f"Constituição: {self.temp_character.constitution} ({self.temp_character.constitution_modifier:+#d})")
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-20 18:12:54.899467] CRITICAL ERROR
+Error: GameplayState.render() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+TypeError: GameplayState.render() takes 1 positional argument but 2 were given
+
+==================================================
+
+
+[2025-08-20 18:15:01.444397] CRITICAL ERROR
+Error: GameplayState.render() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+TypeError: GameplayState.render() takes 1 positional argument but 2 were given
+
+==================================================
+
+
+[2025-08-20 21:09:48.836393] CRITICAL ERROR
+Error: 'easier_read'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson2\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson2\states\system\credits_state.py", line 56, in render
+    f"{member['easier_read']}"
+       ~~~~~~^^^^^^^^^^^^^^^
+KeyError: 'easier_read'
+
+==================================================
+
+
+[2025-08-21 11:11:04.133242] CRITICAL ERROR
+Error: SettingsState.render() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+TypeError: SettingsState.render() takes 1 positional argument but 2 were given
+
+==================================================
+
+
+[2025-08-21 11:20:50.390150] CRITICAL ERROR
+Error: AttributesState.__init__() missing 1 required positional argument: 'stdscr'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 80, in run
+    current_state.handle_input()
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 121, in handle_input
+    self._execute_selection()
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 139, in _execute_selection
+    self.game.push_state(AttributesState(self.game))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: AttributesState.__init__() missing 1 required positional argument: 'stdscr'
+
+==================================================
+
+
+[2025-08-21 11:21:00.197844] CRITICAL ERROR
+Error: AttributesState.__init__() missing 1 required positional argument: 'stdscr'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 80, in run
+    current_state.handle_input()
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 121, in handle_input
+    self._execute_selection()
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 139, in _execute_selection
+    self.game.push_state(AttributesState(self.game))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: AttributesState.__init__() missing 1 required positional argument: 'stdscr'
+
+==================================================
+
+
+[2025-08-21 13:07:09.595108] CRITICAL ERROR
+Error: No module named 'states.travel_state'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 80, in run
+    current_state.handle_input()
+  File "C:\Users\Usuario\Downloads\Robson3\states\base_state.py", line 38, in handle_input
+    self.execute_choice()
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 185, in execute_choice
+    self._handle_travel()
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 197, in _handle_travel
+    from states.travel_state import TravelState
+ModuleNotFoundError: No module named 'states.travel_state'
+
+==================================================
+
+
+[2025-08-21 13:09:22.737439] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\system\save_manager_state.py", line 166, in render
+    stdscr.addstr(menu_start_y, x, instructions)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 13:26:37.486219] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\system\save_manager_state.py", line 167, in render
+    stdscr.addstr(menu_start_y, x, instructions)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 13:40:37.060458] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 162, in render
+    stdscr.addstr(row, left_margin + (content_width - len(option)) // 2 - 1, option_text,
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 13:44:16.030710] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 162, in render
+    stdscr.addstr(row, left_margin + (content_width - len(option)) // 2 - 1, option_text,
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 13:44:44.825992] CRITICAL ERROR
+Error: SettingsState.render() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+TypeError: SettingsState.render() takes 1 positional argument but 2 were given
+
+==================================================
+
+
+[2025-08-21 13:49:10.689546] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 162, in render
+    stdscr.addstr(row, left_margin + (content_width - len(option)) // 2 - 1, option_text,
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 13:50:29.901463] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 162, in render
+    stdscr.addstr(row, left_margin + (content_width - len(option)) // 2 - 1, option_text, curses.A_REVERSE if idx == self.current_selection else curses.A_NORMAL)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 13:50:34.844423] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 162, in render
+    stdscr.addstr(row, left_margin + (content_width - len(option)) // 2 - 1, option_text, curses.A_REVERSE if idx == self.current_selection else curses.A_NORMAL)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 13:50:50.419840] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 162, in render
+    stdscr.addstr(row, left_margin + (content_width - len(option)) // 2 - 1, option_text, curses.A_REVERSE if idx == self.current_selection else curses.A_NORMAL)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 13:51:06.266088] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 162, in render
+    stdscr.addstr(row, left_margin + (content_width - len(option)) // 2 - 1, option_text, curses.A_REVERSE if idx == self.current_selection else curses.A_NORMAL)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 13:51:12.433295] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 162, in render
+    stdscr.addstr(row, left_margin + (content_width - len(option)) // 2 - 1, option_text, curses.A_REVERSE if idx == self.current_selection else curses.A_NORMAL)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 13:51:40.408082] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 162, in render
+    stdscr.addstr(row, left_margin + (content_width - len(option)) // 2 - 1, option_text, curses.A_REVERSE if idx == self.current_selection else curses.A_NORMAL)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 13:51:54.673306] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 162, in render
+    stdscr.addstr(row, left_margin + (content_width - len(option)) // 2 - 1, option_text, curses.A_REVERSE if idx == self.current_selection else curses.A_NORMAL)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 13:58:23.716323] CRITICAL ERROR
+Error: 'SaveManagerState' object has no attribute 'scroll_offset'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\system\save_manager_state.py", line 175, in render
+    menu_start_y = self._render_character_table(stdscr, content_start_y)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Robson3\states\system\save_manager_state.py", line 108, in _render_character_table
+    line_idx = i + self.scroll_offset
+                   ^^^^^^^^^^^^^^^^^^
+AttributeError: 'SaveManagerState' object has no attribute 'scroll_offset'. Did you mean: 'scroll_offset_x'?
+
+==================================================
+
+
+[2025-08-21 14:12:59.808044] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 154, in render
+    stdscr.addstr(row, left_margin + (content_width - len(location_title)) // 2, location_title, curses.A_BOLD)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 14:13:10.434504] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 156, in render
+    stdscr.addstr(row, left_margin, separator)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 14:15:51.833720] CRITICAL ERROR
+Error: 'SaveManagerState' object has no attribute 'scroll_offset'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\system\save_manager_state.py", line 158, in render
+    menu_start_y = self._render_character_table(stdscr, content_start_y)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Downloads\Robson3\states\system\save_manager_state.py", line 100, in _render_character_table
+    line_idx = i + self.scroll_offset
+                   ^^^^^^^^^^^^^^^^^^
+AttributeError: 'SaveManagerState' object has no attribute 'scroll_offset'. Did you mean: 'scroll_offset_x'?
+
+==================================================
+
+
+[2025-08-21 14:16:14.773609] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 76, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\gameplay_state.py", line 162, in render
+    stdscr.addstr(row, left_margin + (content_width - len(option)) // 2 - 1, option_text, curses.A_REVERSE if idx == self.current_selection else curses.A_NORMAL)
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 15:02:30.586517] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 82, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\character\inventory_state.py", line 76, in render
+    stdscr.addstr(height-1, 0, centered_instructions[:width])
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 15:13:53.929468] CRITICAL ERROR
+Error: addwstr() returned ERR
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 82, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\character\inventory_state.py", line 78, in render
+    stdscr.addstr(height-1, 0, centered_instructions[:width])
+_curses.error: addwstr() returned ERR
+
+==================================================
+
+
+[2025-08-21 15:27:27.700899] CRITICAL ERROR
+Error: 'Character' object has no attribute 'get_weapon_damage_string'
+
+
+[2025-08-21 15:51:55.943297] CRITICAL ERROR
+Error: split
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Robson3\main.py", line 82, in run
+    current_state.render(self.stdscr)
+  File "C:\Users\Usuario\Downloads\Robson3\states\world\combat_state.py", line 45, in render
+    player_lines = player_table.split('\n')
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\prettytable\prettytable.py", line 491, in __getattr__
+    raise AttributeError(name)
+AttributeError: split
+
+==================================================
